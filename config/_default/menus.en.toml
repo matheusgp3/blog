@@ -1,5 +1,5 @@
   [[main]]
-  name = "Home"
+  name = "Pagina Principal"
   identifier = "home"
   weight = 100
   url = "/"
@@ -11,25 +11,25 @@
   url = "/post/"
 
   [[main]]
-  name = "Portfolio"
+  name = "Curriculo"
   weight = 300
   identifier = "portfolio"
   url = "/portfolio/"
 
   [[main]]
-  name = "About"
+  name = "Sobre mim"
   weight = 400
   identifier = "about"
   url = "/about/"
 
   [[main]]
-  name = "Contact"
+  name = "Entrar em contato"
   weight = 500
   identifier = "contact"
   url = "/contact/"
 
   [[footer]]
-  name = "imprint"
+  name = "Fase Beta"
   weight = 1
   identifier = "imprint"
   url = "/imprint/"

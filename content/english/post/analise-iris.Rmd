@@ -1,0 +1,32 @@
+---
+title: "começando a brincar"
+author: "matheus"
+date: "2022-01-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r library, include=FALSE}
+library(tidyverse)
+```
+# Objetivos:
+
+- Explicar o funcionamento basico da pagina
+  - teremos algumas explicações previas
+  - algumas linhas de codigos realizando calculos
+  - alguns graficos plotados na pagina
+  
+<b>O dataset a ser usado será o iris<b>
+```{r dataset, echo=FALSE,warning=FALSE,message=FALSE}
+print("Este dataset possui o seguinte formato")
+print(head(iris))
+
+cat("\n")
+print("cujo o grafico de dispersão do petal.length com o sepal.length é: ")
+
+iris %>% ggplot(aes(x=Sepal.Length,y=Petal.Length, color=Species)) + geom_point()
+
+```
